@@ -1,0 +1,45 @@
+
+html, body{
+    height: 100%;
+}
+.box{
+    width: 40%;
+    height: 300px;
+    color: grey;
+}
+.box p{
+    color: initial;
+    margin: initial;
+}
+
+
+
+/*
+
+@media screen and (max-width: 480px){
+    .box{
+        height: auto;
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

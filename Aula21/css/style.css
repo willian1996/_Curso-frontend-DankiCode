@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* tem que ser igual
+a[href="https://www.google.com/"]{
+    background-color: yellow;
+}
+
+[href="https://www.google.com/"]{
+    background-color: red;
+}
+*/
+
+
+/* procure entre os espaços do atributo
+a[attr~="google"]{
+    background-color: blue;
+}*/
+
+
+/* ache a palavra google em qualquer lugar
+a[attr*="google"]{
+    background-color: blue;
+}
+*/
+
+
+/* quando começamos com a palavra google seguido por um ifem
+a[attr|="google"]{
+    background-color: yellow;
+}
+*/
+
+
+/* quando começamos com a palavra
+a[attr^="goo"]{
+    background-color: red;
+}
+*/
+
+
+/* quando terminos com a palavra
+a[attr$="google"]{
+    background-color: yellow;
+}
+*/
+
+input[type="text"]{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

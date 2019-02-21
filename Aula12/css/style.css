@@ -1,0 +1,31 @@
+html, body{
+    height: 100%;
+}
+
+.artigo{
+    width: 4%;
+    height: 100%;
+    background-color: #ccc;
+    text-align: center;
+    
+}
+.artigo h1{
+    color: #0000ff;
+    font-size: 200%;
+    font-family: "tahoma";
+    font-style: normal;
+    font-weight: normal;
+/*    font-variant: small-caps;*/
+}
+
+.artigo p{
+    color: #b4b4b4;
+    text-align: left;
+    font-size: 17px;
+    font-family: 'tahoma';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 12px;
+    
+}

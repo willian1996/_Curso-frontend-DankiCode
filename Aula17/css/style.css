@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+.center{
+    box-sizing: content-box;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.artigo{
+    vertical-align: top;
+    display: inline-block;
+    margin-right: -4px;
+    width: 640px;
+    background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

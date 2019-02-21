@@ -1,0 +1,45 @@
+
+html, body{
+    height: 100%;
+}
+
+.box, .box2{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: grey;
+    display: none;
+/*
+    overflow-x: hidden;
+    overflow-y: hidden;
+*/
+}
+
+.box p{
+    width: 500px;
+}.box2{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

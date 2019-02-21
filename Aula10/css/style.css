@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+.menu a{
+    color: red;
+    
+    margin: 0 10px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    padding: 8px;
+    
+    
+    
+}
+
+
+
+
