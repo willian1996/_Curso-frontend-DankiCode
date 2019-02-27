@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    
+}
+
+.bg{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    
+    /*background*/
+    background-color: red;
+    background-image: url('../img/canada.jpg');
+    background-size:  cover;
+    background-position: 200%;
+    background-repeat: no-repeat; /*no-repeat, repeat-x, repeat-y*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
