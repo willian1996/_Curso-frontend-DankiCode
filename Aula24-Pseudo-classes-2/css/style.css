@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+ul{
+    list-style-position: inside;
+}
+
+/*DE ACORDO COM O TIPO DO ELEMENTO */
+/*
+ul li:nth-of-type(2){
+    color: red;
+}
+*/
+
+/*DE ACORDO COM AS FILHAS */
+ul span:nth-child(6){
+    color: red;
+}
+
+.box{
+    width: 100%;
+}
+.box > div{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+
+/* PEGAMOS O ULTIMO ELEMENTO DO MESMO TIPO
+
+.box div:last-of-type, .box p:last-of-type{
+    background-color: green;
+}
+*/
+
+/*
+.box div:last-child p{
+    color: rgba(255,255,255);
+}
+*/
+
+/*
+NEGAÇÃO, 
+.box div:not(.one){
+    background-color: gold;
+}
+*/
+
+p:empty{
+    background-color: orange;
+    width: 15px;
+    height: 15px;
+}
+
+.p::after{
+    content: ' willian ';
+    background-color: red;
+    
+}
+.p::before{
+    content: ' Willian ';
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
