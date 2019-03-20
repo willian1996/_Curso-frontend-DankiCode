@@ -27,6 +27,7 @@ form input[type=text]{
     margin-top: 30px;
     width: 80%;
     padding: 10px 13px;
+    border: 1px solid #ccc;
 }
 form input[type=text]:focus{
     outline: 0;
@@ -37,9 +38,54 @@ form select{
     margin-top: 30px;
     display: inline-block;
     padding: 10px 13px;
+    border: 1px solid #ccc;
+}
+/*
+form select option:nth-of-type(3){
+    color: red;
+}
+*/
+/*
+form select option[disabled]{
+    color: orange;
+}
+*/
+form select:hover{
+    border: 0;
+}
+form h2{
+    margin-top: 20px;
+    color: rgb(100,100,100);
 }
 
-
+.radio-input{
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+}
+.radio-input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(130,130,130);
+}
+form input[type=submit]{
+    margin-top: 30px;
+    border: 0;
+    font-size: 16px;
+    width: 140px;
+    height: 40px;
+    cursor: help;
+    color: white;
+    background-color: rgb(140,140,140)
+}
+form textarea{
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px;
+    resize: none;
+    border: 1px solid #ccc;
+    height: 140px;
+}
 
 
 
