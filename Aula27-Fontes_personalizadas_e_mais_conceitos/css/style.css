@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* IMPORTANDO DO PROPRIO DIRETORIO */
+@font-face{
+    font-family: 'Open Sans';
+    src:url('../fonts/OpenSans-light.ttf');
+}
+
+
+html, body{
+    height: 100%;
+    font-family: 'Open Sans';
+}
+
+form > *{
+    font-family: 'Open Sans';
+}
+
+
+
+
+/* IMPORTANT FORÇANDO O NIVEL DE ESPECIFICAÇÃO 
+.box p{
+    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text{
+    font-family: tahoma !important;
+}
+*/

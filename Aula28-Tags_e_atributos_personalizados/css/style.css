@@ -1,0 +1,13 @@
+minhatag{
+    display: block;
+}
+
+minhatag.tag_especial[tag=one]{
+    background-color: green;
+    height: 300px;
+    width: 400px;
+}
+
+willian{
+    color: red;
+}
